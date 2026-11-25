@@ -1,6 +1,11 @@
 ---
 name: wechat-desktop-automation
+version: 1.1.0
+display_name: 微信桌面自动化
+display_name_en: WeChat Desktop Automation
 description: 微信桌面端（macOS 微信 4.x）自动化收发操作 skill。当用户要求"发消息到微信/群/文件传输助手"、"发会议纪要/日报/周报到群"、"转发文件/图片/报告给微信联系人或客户"、"定时提醒发微信"、"总结当前屏幕上看得见的群消息"、"同一通知发多个群"等，且内容已由用户确认时，用本 skill 通过 computer-use 工具执行"拉起微信 → 定位会话 → 输入 → 发送 → 截图确认"的完整链路，避免现场反复试错。只操作用户指定的会话，不读取屏幕之外的聊天记录。
+description_zh: 微信桌面端（macOS 微信 4.x）自动化收发操作。当用户要求"发消息到微信/群/文件传输助手"、"发会议纪要/日报/周报到群"、"转发文件/图片/报告给微信联系人或客户"、"定时提醒发微信"、"总结当前屏幕上看得见的群消息"、"同一通知发多个群"等，且内容已由用户确认时，执行"拉起微信 → 定位会话 → 输入 → 发送 → 截图确认"的完整链路。只操作用户指定的会话，不读取屏幕之外的聊天记录，支付/账号绑定等高危操作一律拒绝。
+description_en: Automate WeChat desktop (macOS WeChat 4.x) messaging. Use this skill when the user asks to send messages to WeChat chats/groups/File Transfer, send meeting minutes/daily/weekly reports to a group, forward files/images/reports to WeChat contacts or clients, send scheduled reminders via WeChat, summarize group messages visible on screen, or broadcast one notice to multiple groups with per-group confirmation. Executes the proven path: launch WeChat, locate the chat, type, send, and verify on screen. Operates only on the user-specified conversation, never reads chat history beyond the visible screen, and refuses payments and account-binding operations.
 agent_created: true
 ---
 
